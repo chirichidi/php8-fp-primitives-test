@@ -1,0 +1,24 @@
+{
+  "name": "chirichidi/php8-fp-primitives-test",
+  "version": "0.0.1",
+  "require": {
+    "php": ">=8.0.1",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-zlib": "*",
+    "ext-curl": "*",
+    "ext-redis": "*",
+    "google/cloud": "0.147.*",
+    "kapolos/pramda": "0.10.0.x-dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PlayGround\\": [
+        "src"
+      ]
+    }
+  }
+}
